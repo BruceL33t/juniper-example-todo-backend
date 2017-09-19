@@ -1,13 +1,13 @@
 use diesel;
 use diesel::prelude::*;
-use diesel::sqlite::SqliteConnection;
+use diesel::pg::PgConnection;
 use juniper::{Context as JuniperContext, FieldResult, ResultExt};
 
 use models::{NewTodo, Todo};
 
 
 pub struct Context {
-    pub connection: SqliteConnection,
+    pub connection: PgConnection,
 }
 
 impl JuniperContext for Context {}

@@ -6,9 +6,9 @@ authors = ["Magnus Hallin <mhallin@fastmail.com>"]
 [dependencies]
 juniper = { version = "0.8.0", features = ["iron-handlers"] }
 
-diesel = { version = "0.13.0", features = ["sqlite"] }
-diesel_codegen = { version = "0.13.0", features = ["sqlite"] }
-dotenv = "0.8"
+diesel = { version = "0.16.0", features = ["postgres"] }
+diesel_codegen = { version = "0.16.0", features = ["postgres"] }
+dotenv = "0.9.0"
 
 iron = "0.5.1"
 router = "0.5.1"
