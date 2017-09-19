@@ -9,8 +9,13 @@ juniper = { version = "0.8.0", features = ["iron-handlers"] }
 diesel = { version = "0.16.0", features = ["postgres"] }
 diesel_codegen = { version = "0.16.0", features = ["postgres"] }
 dotenv = "0.9.0"
+r2d2 = "0.7.0"
+r2d2-diesel = "0.16.0"
 
 iron = "0.5.1"
 router = "0.5.1"
 mount = "0.3.0"
 logger = "0.3.0"
+persistent = "0.3.0"
+
+
